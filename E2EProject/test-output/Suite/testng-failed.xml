@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="mypackage.ValidateNavBar">
+        <methods>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- mypackage.ValidateNavBar -->
+      <class name="mypackage.ValidatingTitle">
+        <methods>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- mypackage.ValidatingTitle -->
+      <class name="mypackage.HomePage">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0 1"/>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- mypackage.HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
